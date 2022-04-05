@@ -16,10 +16,11 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Link from '@mui/material/Link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
-
-
+const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const pages = ['Art', 'Team' ];
 const anchorComps = ['About', 'RoadMap']
 const Header = () => {
@@ -159,10 +160,16 @@ const Header = () => {
             ))}
         
           </Box>
+          <Box id="testing" sx={{ flexGrow: 0 }}>
+            
+            <FontAwesomeIcon icon={faTwitter}/>
+            <FontAwesomeIcon icon={faDiscord}/>
+          </Box>
 
         </Toolbar>
       </Container>
     </AppBar>
+    
   );
 };
 export default Header;

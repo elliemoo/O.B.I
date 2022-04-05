@@ -1,5 +1,5 @@
 import Start_Img from "../Images/Start.jpeg";
-
+import Background_Img from "../Images/Footer_Background.png"
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { Container, dividerClasses, Typography } from "@mui/material";
@@ -9,6 +9,9 @@ import contentData from "../Data.json"
 import React, {createRef, useRef, useState} from "react";
 import { create } from "@mui/material/styles/createTransitions";
 
+const styles = {
+  backgroundImage: `url(${Background_Img})`,
+}
 
 const Start = () => {
   return (
@@ -54,9 +57,9 @@ const RoadMap = () => {
 const Body = () => {
   return(
       // <div style={{backgroundColor:'blue'}}>hellio</div>  
-    <Container  maxWidth={false} disableGutters
+    <Container style={styles} maxWidth={false} disableGutters
       sx={{
-        backgroundColor: 'blue',
+        backgroundImage: '../Images/Footer_Background.png',
         width: '100%'
       }}
       >
