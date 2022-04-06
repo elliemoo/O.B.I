@@ -1,36 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Body from './components/Body';
-import Art from './components/Art';
-import { Container } from '@mui/material';
-
+import Header from './Components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
-
+import MainContent from './Components/MainContent';
 
 function App() {
   return (
-    // <div className='container'>
-    //   <Header/>
-    //   <Body/>
-    // </div>
-
-    <Router>
-      <div className='App'>
-        <Header/>
-        <div className='Content'>
-          <Routes>
-            <Route path="/" element={<Body/>} ></Route>
-            <Route path='/Art' element={<Art/>}></Route>
-          </Routes>
-          
-        </div>
-      </div>
-    </Router>
+    <div className='App'>
+      <Header></Header>
+      <MainContent></MainContent>
       
-    
+    </div>
   );
 }
 
