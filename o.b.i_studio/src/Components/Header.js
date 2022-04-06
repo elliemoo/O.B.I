@@ -19,9 +19,8 @@ const Header = () => {
         <Navbar.Collapse>
           <Nav className='ms-2'>
             
-            <Link className='nav-link' href='/' to='About' spy={true} smooth={true}>About</Link>
-            
-            <Nav.Link href='/'> Art </Nav.Link>
+            <Link href='/' className='nav-link' to='About' spy={true} smooth={true}>About</Link>
+            <Nav.Link href='Art'> Art </Nav.Link>
             <Nav.Link href='Team'> Team </Nav.Link>
             <Nav.Link>
               <Link to='RoadMap' spy={true} smooth={true}>Road Map</Link>

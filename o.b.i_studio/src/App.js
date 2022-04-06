@@ -1,17 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
+import Art from './Components/Art';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainContent from './Components/MainContent';
 
 function App() {
   return (
-    <div className='App'>
+    <Router>
+      <div className='App'>
       <Header></Header>
-      <MainContent></MainContent>
+        
+      <Routes>
       
-    </div>
+        <Route path='/' element={<MainContent/>} ></Route>
+        <Route path='/Art' element={<Art/>}></Route>
+        {/* <Route path='/Art' element={<Team></Team>}></Route> */}
+      </Routes>
+      
+      </div>
+    </Router>
+    
   );
 }
 
