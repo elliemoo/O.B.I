@@ -19,12 +19,11 @@ const Header = () => {
         <Navbar.Collapse>
           <Nav className='ms-2'>
             
-            <Link href='/' className='nav-link' to='About' spy={true} smooth={true}>About</Link>
-            <Nav.Link href='Art'> Art </Nav.Link>
-            <Nav.Link href='Team'> Team </Nav.Link>
-            <Nav.Link>
-              <Link to='RoadMap' spy={true} smooth={true}>Road Map</Link>
-            </Nav.Link>
+            <Link to='About' className='nav-link' spy={true} smooth={true}>About</Link>
+            <Link to='Art' className='nav-link' spy={true} smooth={true}> Art </Link>
+            <Link to="Team" className='nav-link' spy={true} smooth={true}> Team </Link>
+            <Link to='RoadMap' className='nav-link' spy={true} smooth={true}>Road Map</Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

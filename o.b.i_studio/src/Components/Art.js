@@ -2,7 +2,7 @@ import React from 'react';
 
 const Art = () => {
   return (
-    <div>This is place holder for Arts</div>
+    <div id='Art'>This is place holder for Arts</div>
   )
 }
 
