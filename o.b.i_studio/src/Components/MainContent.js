@@ -12,8 +12,8 @@ const MainContent = () => {
   return (
     <Container fluid className='p-0'>
       <Image className='startImg' fluid alt='main image' src={Start_Img}/>
-      <About/>
-      <RoadMap/>
+      <About id='About'/>
+      {/* <RoadMap/> */}
     </Container>
     
   );

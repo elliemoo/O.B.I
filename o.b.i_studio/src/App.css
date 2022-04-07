@@ -10,3 +10,35 @@
 .startImg {
   width: 100vw;
 }
+
+
+
+
+/* styling brandlogos */
+.linkContainer{
+  /* flex: 1; */
+  display: flex;
+  background-color: #212529;;
+  /* background-color: white; */
+  flex-wrap: inherit;
+  align-items: center;
+  /* justify-content:  */
+}
+.linkContainer .navbar-brand {
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
+}
+.linkContainer .div {
+  align-items: center;
+}
+
+.discordLogo{
+  
+  color: red;
+  
+}
+.twitterLogo{
+  
+  color: red;
+}

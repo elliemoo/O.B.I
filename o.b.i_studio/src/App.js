@@ -8,29 +8,25 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainContent from './Components/MainContent';
 import ScrollToTop from './Components/ScrollToTop';
 import RoadMap from './Components/RoadMap';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faOpensea } from "./Components/BrandLogos/Opensea";
+library.add(fab);
+library.add(faOpensea);
 
 function App() {
   return (
-    // <Router>
-      
-    //   <Header/>
-    //   <ScrollToTop/>
-    //   <Routes>
-    //     <Route path='/' element={<MainContent/>} ></Route>
-    //     <Route path='/Art' element={<Art/>}></Route>
-    //     {/* <Route path='/Art' element={<Team></Team>}></Route> */}
-    //   </Routes>
-    //   <div> this is my footer </div>
-    // </Router>
     <Router>
       <Header/>
-      <ScrollToTop/>
-      <MainContent/>
-      <Art/>
-      <Team/>
-      <RoadMap/>
+      <Routes >
+        <Route path='/Art' element={<Art/>}></Route>
+        <Route path='/' element={<MainContent/>} ></Route>
+        {/* <Route path='/Art' element={<Team></Team>}></Route> */}
+      </Routes>
     </Router>
   );
 }
 
 export default App;
+
+

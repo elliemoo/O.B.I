@@ -1,34 +1,71 @@
 
-import React from 'react';
-import { Container, Nav, Navbar, NavLink, } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Nav, Navbar, NavbarBrand, NavDropdown, NavLink, } from 'react-bootstrap';
 import Logo from '../Images/OBI_logo.gif';
 import {Link} from 'react-scroll';
+import { HashLink } from 'react-router-hash-link';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import BrandLogos from './BrandLogos';
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.currnet.offsetTop)
 
 const Header = () => {
-  return (
-    <Navbar bg='dark' variant='dark' sticky='top' expand="lg" collapseOnSelect >
+  const NavExpand = () =>{
 
-      <Container fluid>
-        <Navbar.Brand href='/' className='justify-content-center' >
-          <img height='60' className='d-inline-block ms-0 me-3' alt='obi logo' src={Logo}/>
-        </Navbar.Brand>
-        <Navbar.Brand href='/' className='d-inline-block'>O.B.I Studio</Navbar.Brand>
-        <Navbar.Toggle/>
-        <Navbar.Collapse>
-          <Nav className='ms-2'>
+    if(window.location.pathname === '/') {
+      return (
+        <Navbar  onMouseLeave={handleLeave} className = {visible} bg='dark' variant='dark' sticky='top' expand="lg" >
+        <Container fluid>
+          <Nav Nav className='ms-2'>
             
-            <Link to='About' className='nav-link' spy={true} smooth={true}>About</Link>
-            <Link to='Art' className='nav-link' spy={true} smooth={true}> Art </Link>
-            <Link to="Team" className='nav-link' spy={true} smooth={true}> Team </Link>
-            <Link to='RoadMap' className='nav-link' spy={true} smooth={true}>Road Map</Link>
-            
+            <Link to='About' className='nav-link'>About</Link>
+            <Link to='RoadMap' className='nav-link'>Road Map</Link>              
           </Nav>
-        </Navbar.Collapse>
-      </Container>
+        </Container>
+        </Navbar>
+      )
+    }
+    
+  }
+  const [visible, setVisible] = useState('d-none');
+
+  const handleEnter = () => {
+    setVisible((prevVisible) => (prevVisible = 'd-block'));
+  };
+  const handleLeave = () => {
+    setVisible((prevVisible) => (prevVisible = 'd-none'));
+  }
+  
+
+  return (
+    <div className='sticky-top m-0 p-0'>
       
-    </Navbar>
+      <Navbar bg='dark' variant='dark' sticky='top' expand='md' >
+        <Container fluid className='navbarInnerContainer'>
+          
+  
+          <Navbar.Brand href='/' onMouseEnter={handleLeave} >
+            <img height='60' className='d-inline-block ms-0 me-3' alt='obi logo' src={Logo}/>
+          </Navbar.Brand>
+          <Navbar.Brand onMouseEnter={handleEnter}>
+            <div>O.B.I Studio</div>
+          </Navbar.Brand>
+
+          <BrandLogos onMouseEnter={handleLeave}></BrandLogos>
+          
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse>
+            <Nav onMouseEnter={handleLeave} className='ms-2'>
+              <Nav.Link href='/Art' className='nav-link'> Art </Nav.Link>
+              <Nav.Link href='/Team' className='nav-link'> Team </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <NavExpand/>
+
+    </div>
+
   );
 }
 
