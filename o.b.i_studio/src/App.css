@@ -42,3 +42,20 @@
   
   color: red;
 }
+
+
+
+/* styling art page  */
+.race-card{
+  width: 21rem;
+  margin: 1rem
+}
+/* .card-img{
+  
+} */
+
+.race-card-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
