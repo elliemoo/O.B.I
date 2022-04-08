@@ -13,7 +13,7 @@ const MainContent = () => {
     <Container fluid className='p-0'>
       <Image className='startImg' fluid alt='main image' src={Start_Img}/>
       <About id='About'/>
-      {<RoadMap/>}
+      <RoadMap id='RoadMap'/>
     </Container>
     
   );

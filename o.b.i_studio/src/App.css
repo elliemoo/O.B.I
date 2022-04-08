@@ -64,3 +64,18 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* Styling the roadmap */
+#RoadMap {
+  text-align: center;
+  line-height: 1cm;
+  font-size: 1.2em;
+}
+
+#roadmap_card{
+  border: 0px;
+}
+
+#RoadmapContainer{
+  text-align: center;
+}
+/*Styling roadmap completed*/
