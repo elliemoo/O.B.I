@@ -19,7 +19,6 @@ const Art = () => {
         loop="true" 
         autoStart={true}
         autoPlay={true}
-        controls
       />
 
       <div className='race-card-container'>
