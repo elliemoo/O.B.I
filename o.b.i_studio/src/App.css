@@ -51,21 +51,6 @@
 
 
 
-/* styling art page  */
-.race-card{
-  width: 85rem;
-  margin: 1rem
-}
-/* .card-img{
-  
-} */
-
-.race-card-container {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 /* styling footer *//* styling footer *//* styling footer */
 /* flexing footer-inner , footer-nft-cal */
 .footer {
@@ -113,4 +98,24 @@
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
+}
+
+
+
+/* styling art page  */
+
+
+.race-img {
+  width: 30vw !important;
+}
+
+.read-more {
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.read-more:hover {
+  color: grey;
 }

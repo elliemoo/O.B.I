@@ -1,18 +1,25 @@
-import React from 'react'
-import { Card, Col, Row } from 'react-bootstrap'
+import React from 'react';
+import { Card, Col, Row } from 'react-bootstrap';
 import Envy from '../../Races/Envy_Male.png';
-import raceData from '../../Data.json'
+import { Button } from 'bootstrap';
+import ReadMore from './ReadMore';
 
 const EnvyCard = () => {
   return (
-    <Card className='race-card'>
+    <Card id='Envy' className='race-card'>
       <Row>
-        <Col><Card.Img src={Envy}></Card.Img></Col>
-        <Col>
+        <Col sm={4}><Card.Img className='race-img' src={Envy}></Card.Img></Col>
+        <Col sm={8}>
           <Card.Header>Ophites</Card.Header>
           <Card.Body>
             <Card.Title>Sin: Envy</Card.Title>
-            <Card.Text> {raceData.Race.Envy}</Card.Text>
+            <Card.Text>
+              The Ophites used to be the kindest race that focused on helping others. They gave whatever they had to help others for hundreds of years. Ophites would travel to the 7 other planets throughout the omniverse using their plasma staphs to help other races.Other races, however, started to take advantage of their kindness. These others took everything from them and left them empty-handed and feeling empty-hearted. They returned to their own planet Ophius, and that is where they enacted their future. 
+            </Card.Text>
+            <ReadMore target='Envy'>
+              <p>The Ophites, once a kind and helpful race, started to see what these other races had and all they had lost to them. They grew resentful and green with envy. This is where everything took a turn. Ophites vowed to take everything back from each other and all these races, letting their envy consume them entirely. They grew eyes all over their body to see everyone and their treasures from all sides. </p>
+              <p>They have a severe lack of trust due to being taken advantage of for as long as they were. Once a kind, people have now fallen to hate and envy. The Ophites wanted more, driven by selfishness. They used their water plasma staffs to create a water vortex with plasma that spun so fast that they made black holes that they could control to travel to these other 7 races across The Omniverse. They sleuthed around eating the populace and stealing all of their possessions through their black holes. They lived like this for millennia until they ran into the Zoth. They saw them for what they were, how powerful they were, and prioritised avoiding them.</p>
+            </ReadMore>
           </Card.Body>
         </Col>
       </Row>
