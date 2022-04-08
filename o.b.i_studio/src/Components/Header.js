@@ -17,15 +17,13 @@ const Header = () => {
         <Navbar  onMouseLeave={handleLeave} className = {visible} bg='dark' variant='dark' sticky='top' expand="lg" >
         <Container fluid>
           <Nav Nav className='ms-2'>
-            
             <Link to='About' className='nav-link'>About</Link>
             <Link to='RoadMap' className='nav-link'>Road Map</Link>              
           </Nav>
         </Container>
         </Navbar>
       )
-    }
-    
+    } 
   }
   const [visible, setVisible] = useState('d-none');
 
