@@ -12,7 +12,12 @@
 }
 
 
-
+#About{
+  text-align: center;
+  font-size: 1.2em;
+  padding: 2.5em;
+  line-height: 1cm;
+}
 
 /* styling brandlogos */
 .linkContainer{
@@ -47,7 +52,7 @@
 
 /* styling art page  */
 .race-card{
-  width: 21rem;
+  width: 85rem;
   margin: 1rem
 }
 /* .card-img{

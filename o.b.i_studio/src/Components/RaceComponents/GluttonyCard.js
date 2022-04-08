@@ -7,10 +7,10 @@ const GluttonyCard = () => {
       <Row>
         <Col><Card.Img src={Gluttony}></Card.Img></Col>
         <Col>
-          <Card.Header> Race Name</Card.Header>
+          <Card.Header>Ardenterians</Card.Header>
           <Card.Body>
-            <Card.Title> title for race</Card.Title>
-            <Card.Text> some Details about race</Card.Text>
+            <Card.Title>Sin: Gluttony</Card.Title>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Col>
       </Row>

@@ -8,9 +8,9 @@ const SlothCard = () => {
       <Row>
         <Col><Card.Img src={Sloth}></Card.Img></Col>
         <Col>
-          <Card.Header> Race Name</Card.Header>
+          <Card.Header>Xenarths</Card.Header>
           <Card.Body>
-            <Card.Title> title for race</Card.Title>
+            <Card.Title>Sin: Sloth</Card.Title>
             <Card.Text> some Details about race</Card.Text>
           </Card.Body>
         </Col>

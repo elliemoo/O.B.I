@@ -1,9 +1,6 @@
 import React from 'react';
-import { Card, Container } from 'react-bootstrap';
-import Envy from '../Races/Envy_Male.png';
-import Gluttony from '../Races/Gluttony_Female.png';
-
-import Lust from '../Races/Lust_Female.png'
+import {Container } from 'react-bootstrap';
+import ReactAudioPlayer from 'react-audio-player';
 import EnvyCard from './RaceComponents/EnvyCard';
 import GluttonyCard from './RaceComponents/GluttonyCard';
 import GreedCard from './RaceComponents/GreedCard';
@@ -16,16 +13,20 @@ import ZothCard from './RaceComponents/ZothCard';
 const Art = () => {
   return (
     <Container fluid className='art-contianer'>
-     
+     <ReactAudioPlayer
+        src="BGM.mp3"
+        autoPlay
+        controls
+      />
      <div className='race-card-container'>
+      <ZothCard/>  
+      <WrathCard/>   
       <EnvyCard/>
       <GluttonyCard/>
       <GreedCard/>
       <LustCard/>
       <PrideCard/>
       <SlothCard/>
-      <WrathCard/>
-      <ZothCard/>
     </div>
     </Container>
     
