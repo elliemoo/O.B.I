@@ -11,6 +11,7 @@ import RoadMap from './Components/RoadMap';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faOpensea } from "./Components/BrandLogos/Opensea";
+import Footer from './Components/Footer';
 library.add(fab);
 library.add(faOpensea);
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/' element={<MainContent/>} ></Route>
         {/* <Route path='/Art' element={<Team></Team>}></Route> */}
       </Routes>
+      <Footer/>
     </Router>
   );
 }

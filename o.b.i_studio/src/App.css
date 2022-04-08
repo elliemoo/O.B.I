@@ -23,7 +23,7 @@
 .linkContainer{
   /* flex: 1; */
   display: flex;
-  background-color: #212529;;
+  background-color: #212529;
   /* background-color: white; */
   flex-wrap: inherit;
   align-items: center;
@@ -50,6 +50,7 @@
 
 
 
+
 /* styling art page  */
 .race-card{
   width: 85rem;
@@ -64,18 +65,42 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/* Styling the roadmap */
-#RoadMap {
-  text-align: center;
-  line-height: 1cm;
-  font-size: 1.2em;
+
+/* styling footer */
+/* flexing footer-inner , footer-nft-cal */
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #212529;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#roadmap_card{
-  border: 0px;
+/* flexing .footer-logo, .footer-copy-right */
+.footer-inner {
+  display: flex;
+  align-items: center;
+}
+.footer-logo img {
+  
+  width: 100px;
+}
+.footer-copy-right {
+  color: white;
 }
 
-#RoadmapContainer{
-  text-align: center;
+
+
+
+.footer-nft-cal {
+  padding-right: 15px;
 }
-/*Styling roadmap completed*/
+.footer-nft-cal img {
+  
+  width: 70px;
+}
+
+
