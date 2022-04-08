@@ -47,7 +47,7 @@ const Header = () => {
           <Navbar.Brand href='/' onMouseEnter={handleLeave} >
             <img height='60' className='d-inline-block ms-0 me-3' alt='obi logo' src={Logo}/>
           </Navbar.Brand>
-          <Navbar.Brand onMouseEnter={handleEnter}>
+          <Navbar.Brand href='/' onMouseEnter={handleEnter}>
             <div>O.B.I Studio</div>
           </Navbar.Brand>
 
