@@ -11,11 +11,14 @@ const Footer = () => {
         <div className='footer-logo'>
           <Image alt='Footer Logo' src={Footer_Img}/>
         </div>
-        <div className='footer-copy-right'> © O.B.I Studios 2022</div>
+        <div className='footer-copy-right'> © O.B.I. Studios 2022</div>
       </div>
       
       <div className='footer-nft-cal'>
-        <Image  alt='NFT Calender Logo' src={Nft_Img}/>
+        <a target='_blank' href='https://nftcalendar.io/event/obi-studios/'>
+          <Image alt='NFT Calender Logo' src={Nft_Img}/>
+        </a>
+        
       </div>
 
     </div>

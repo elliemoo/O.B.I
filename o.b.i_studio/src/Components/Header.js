@@ -17,8 +17,8 @@ const Header = () => {
         <Navbar  onMouseLeave={handleLeave} className = {visible} bg='dark' variant='dark' sticky='top' expand="lg" >
         <Container fluid>
           <Nav Nav className='ms-2'>
-            <Link to='About' className='nav-link'>About</Link>
-            <Link to='RoadMap' className='nav-link'>Road Map</Link>              
+            <Link to='About' offset={-86} className='nav-link'>About</Link>
+            <Link to='RoadMap' offset={-86} className='nav-link'>Road Map</Link>              
           </Nav>
         </Container>
         </Navbar>
@@ -46,7 +46,7 @@ const Header = () => {
             <img height='60' className='d-inline-block ms-0 me-3' alt='obi logo' src={Logo}/>
           </Navbar.Brand>
           <Navbar.Brand href='/' onMouseEnter={handleEnter}>
-            <div>O.B.I Studio</div>
+            <div>O.B.I. Studio</div>
           </Navbar.Brand>
 
           <BrandLogos onMouseEnter={handleLeave}></BrandLogos>
@@ -55,7 +55,8 @@ const Header = () => {
           <Navbar.Collapse>
             <Nav onMouseEnter={handleLeave} className='ms-2'>
               <Nav.Link href='/Art' className='nav-link'> Art </Nav.Link>
-              <Nav.Link href='/Team' className='nav-link'> Team </Nav.Link>
+              {/* not displaying yet  */}
+              {/* <Nav.Link href='/Team' className='nav-link'> Team </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
