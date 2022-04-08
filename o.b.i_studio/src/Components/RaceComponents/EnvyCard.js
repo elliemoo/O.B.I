@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import Envy from '../../Races/Envy_Male.png';
+import raceData from '../../Data.json'
 
 const EnvyCard = () => {
   return (
@@ -11,7 +12,7 @@ const EnvyCard = () => {
           <Card.Header>Ophites</Card.Header>
           <Card.Body>
             <Card.Title>Sin: Envy</Card.Title>
-            <Card.Text> some Details about race</Card.Text>
+            <Card.Text> {raceData.Race.Envy}</Card.Text>
           </Card.Body>
         </Col>
       </Row>

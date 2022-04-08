@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import Pride from '../../Races/Pride_Male.png';
+import raceData from '../../Data.json'
 
 const PrideCard = () => {
   return (
@@ -11,7 +12,7 @@ const PrideCard = () => {
           <Card.Header>Icarians</Card.Header>
           <Card.Body>
             <Card.Title>Sin: Pride</Card.Title>
-            <Card.Text></Card.Text>
+            <Card.Text>{raceData.Race.Pride}</Card.Text>
           </Card.Body>
         </Col>
       </Row>

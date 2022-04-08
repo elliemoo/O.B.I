@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import Wrath from '../../Races/Wrath_Male.png';
+import raceData from '../../Data.json'
 
 const WrathCard = () => {
   return (
@@ -11,7 +12,7 @@ const WrathCard = () => {
           <Card.Header>Hadesian</Card.Header>
           <Card.Body>
             <Card.Title>Sin: Wrath</Card.Title>
-            <Card.Text></Card.Text>
+            <Card.Text>{raceData.Race.Wrath}</Card.Text>
           </Card.Body>
         </Col>
       </Row>

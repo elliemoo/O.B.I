@@ -9,15 +9,19 @@ import PrideCard from './RaceComponents/PrideCard';
 import SlothCard from './RaceComponents/SlothCard';
 import WrathCard from './RaceComponents/WrathCard';
 import ZothCard from './RaceComponents/ZothCard';
+import BGM from '../BGM.mp3'
 
 const Art = () => {
   return (
     <Container fluid className='art-contianer'>
      <ReactAudioPlayer
-        src="BGM.mp3"
-        autoPlay
+        src={BGM}
+        loop="true" 
+        autoStart={true}
+        autoPlay={true}
         controls
       />
+
      <div className='race-card-container'>
       <ZothCard/>  
       <WrathCard/>   
