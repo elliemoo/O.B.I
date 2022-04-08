@@ -23,7 +23,7 @@
 .linkContainer{
   /* flex: 1; */
   display: flex;
-  background-color: #212529;;
+  background-color: #212529;
   /* background-color: white; */
   flex-wrap: inherit;
   align-items: center;
@@ -50,6 +50,7 @@
 
 
 
+
 /* styling art page  */
 .race-card{
   width: 85rem;
@@ -64,3 +65,42 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+/* styling footer */
+/* flexing footer-inner , footer-nft-cal */
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #212529;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* flexing .footer-logo, .footer-copy-right */
+.footer-inner {
+  display: flex;
+  align-items: center;
+}
+.footer-logo img {
+  
+  width: 100px;
+}
+.footer-copy-right {
+  color: white;
+}
+
+
+
+
+.footer-nft-cal {
+  padding-right: 15px;
+}
+.footer-nft-cal img {
+  
+  width: 70px;
+}
+
+
