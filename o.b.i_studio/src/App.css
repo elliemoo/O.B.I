@@ -101,3 +101,16 @@
 }
 /* styling footer *//* styling footer *//* styling footer */
 
+
+
+
+.roadMap-Container{
+  border: 0 !important;
+  font-size: 1.2em;
+  line-height: 1cm;
+}
+.card-container div {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
