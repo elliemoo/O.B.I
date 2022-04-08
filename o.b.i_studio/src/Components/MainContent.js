@@ -1,5 +1,5 @@
 import React from 'react';
-import Start_Img from '../Images/Start.jpeg';
+import Start_Img from '../Images/Background-1.png';
 
 import Card_Img from '../Images/Footer_Background.png';
 import { Container , Image} from 'react-bootstrap';
