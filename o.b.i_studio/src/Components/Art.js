@@ -22,16 +22,16 @@ const Art = () => {
         controls
       />
 
-     <div className='race-card-container'>
-      <ZothCard/>  
-      <WrathCard/>   
-      <EnvyCard/>
-      <GluttonyCard/>
-      <GreedCard/>
-      <LustCard/>
-      <PrideCard/>
-      <SlothCard/>
-    </div>
+      <div className='race-card-container'>
+        <ZothCard/>  
+        <WrathCard/>   
+        <EnvyCard/>
+        <GluttonyCard/>
+        <GreedCard/>
+        <LustCard/>
+        <PrideCard/>
+        <SlothCard/>
+      </div>
     </Container>
     
   )
