@@ -1,13 +1,10 @@
 
 import React, { useState } from 'react';
-import { Container, Nav, Navbar, NavbarBrand, NavDropdown, NavLink, } from 'react-bootstrap';
+import { Container, Nav, Navbar} from 'react-bootstrap';
 import Logo from '../Images/OBI_logo.gif';
 import {Link} from 'react-scroll';
-import { HashLink } from 'react-router-hash-link';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import BrandLogos from './BrandLogos';
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.currnet.offsetTop)
 
 const Header = () => {
   const NavExpand = () =>{
@@ -55,8 +52,7 @@ const Header = () => {
           <Navbar.Collapse>
             <Nav onMouseEnter={handleLeave} className='ms-2'>
               <Nav.Link href='/Art' className='nav-link'> Art </Nav.Link>
-              {/* not displaying yet  */}
-              {/* <Nav.Link href='/Team' className='nav-link'> Team </Nav.Link> */}
+              <Nav.Link href='/Team' className='nav-link'> Team </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

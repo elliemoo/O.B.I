@@ -1,18 +1,14 @@
-
 /* removing scroll bar */
 ::-webkit-scrollbar {
   display: none;
 }
 
-
 /* styling MainContent */
-
 .startImg {
   width: 100vw;
 }
 
-
-#About{
+#About {
   text-align: center;
   font-size: 1.2em;
   padding: 2.5em;
@@ -20,7 +16,7 @@
 }
 
 /* styling brandlogos */
-.linkContainer{
+.linkContainer {
   /* flex: 1; */
   display: flex;
   background-color: #212529;
@@ -29,29 +25,34 @@
   align-items: center;
   /* justify-content:  */
 }
+
 .linkContainer .navbar-brand {
   margin: 0;
   padding: 1rem;
   align-items: center;
 }
+
 .linkContainer .div {
   align-items: center;
 }
 
-.discordLogo{
-  
+.discordLogo {
+
   color: red;
-  
-}
-.twitterLogo{
-  
-  color: red;
+
 }
 
+.twitterLogo {
+
+  color: red;
+}
 
 
 
-/* styling footer *//* styling footer *//* styling footer */
+
+/* styling footer */
+/* styling footer */
+/* styling footer */
 /* flexing footer-inner , footer-nft-cal */
 .footer {
   position: relative;
@@ -69,10 +70,12 @@
   display: flex;
   align-items: center;
 }
+
 .footer-logo img {
-  
+
   width: 100px;
 }
+
 .footer-copy-right {
   color: white;
 }
@@ -80,20 +83,25 @@
 .footer-nft-cal {
   padding-right: 15px;
 }
+
 .footer-nft-cal img {
-  
+
   width: 70px;
 }
-/* styling footer *//* styling footer *//* styling footer */
+
+/* styling footer */
+/* styling footer */
+/* styling footer */
 
 
 
 
-.roadMap-Container{
+.roadMap-Container {
   border: 0 !important;
   font-size: 1.2em;
   line-height: 1cm;
 }
+
 .card-container div {
   margin-left: 100px;
   margin-right: 100px;
@@ -118,4 +126,8 @@
 
 .read-more:hover {
   color: grey;
+}
+
+.race-background {
+  width: 99vw !important;
 }

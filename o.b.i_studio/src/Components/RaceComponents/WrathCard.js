@@ -1,12 +1,14 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import Wrath from '../../Races/Wrath_Male.png';
-import { Button } from 'bootstrap';
+import Background from '../../Images/2.png';
 import ReadMore from './ReadMore';
 
 const WrathCard = () => {
   return (
     <Card id='Wrath' className='race-card'>
+      <Card.Img className= 'race-background' src={Background} alt="Card image"/>
+      <Card.ImgOverlay>
       <Row>
         <Col sm={4}><Card.Img className='race-img' src={Wrath}></Card.Img></Col>
         <Col sm={8}>
@@ -25,6 +27,7 @@ const WrathCard = () => {
           </Card.Body>
         </Col>
       </Row>
+      </Card.ImgOverlay>
     </Card>
   )
 }

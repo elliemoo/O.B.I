@@ -1,12 +1,14 @@
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import Envy from '../../Races/Envy_Male.png';
-import { Button } from 'bootstrap';
+import Background from '../../Images/3.png';
 import ReadMore from './ReadMore';
 
 const EnvyCard = () => {
   return (
     <Card id='Envy' className='race-card'>
+      <Card.Img className= 'race-background' src={Background} alt="Card image"/>
+      <Card.ImgOverlay>
       <Row>
         <Col sm={4}><Card.Img className='race-img' src={Envy}></Card.Img></Col>
         <Col sm={8}>
@@ -23,6 +25,7 @@ const EnvyCard = () => {
           </Card.Body>
         </Col>
       </Row>
+      </Card.ImgOverlay>
     </Card>
   )
 }

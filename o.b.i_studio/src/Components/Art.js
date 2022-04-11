@@ -14,12 +14,12 @@ import BGM from '../BGM.mp3'
 const Art = () => {
   return (
     <Container fluid className='art-contianer'>
-     {/* <ReactAudioPlayer
+     {<ReactAudioPlayer
         src={BGM}
         loop="true" 
         autoStart={true}
         autoPlay={true}
-      /> */}
+      />}
 
       <div className='race-card-container'>
         <ZothCard/>  
