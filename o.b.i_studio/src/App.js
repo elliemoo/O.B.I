@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Art from './Components/Art';
 import Team from './Components/Team';
+import RoadMap from './Components/RoadMap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainContent from './Components/MainContent';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/Art' element={<Art/>}></Route>
         <Route path='/' element={<MainContent/>} ></Route>
         <Route path='/Team' element={<Team></Team>}></Route>
+        <Route path='/RoadMap' element={<RoadMap></RoadMap>}></Route>
       </Routes>
       <Footer/>
     </Router>

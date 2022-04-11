@@ -28,6 +28,7 @@ const Team = () => {
         <small className="text-muted">Last updated 3 mins ago</small>
       </Card.Footer>
     </Card>
+
     <Card id='CTO'>
       <Card.Img variant="top"  src={CTO} />
       <Card.Body>
@@ -42,20 +43,60 @@ const Team = () => {
         <small className="text-muted">Last updated 3 mins ago</small>
       </Card.Footer>
     </Card>
+
     <Card id='Lead WEB-3 Developer'>
       <Card.Img variant="top" src="holder.js/100px160" />
       <Card.Body>
         <Card.Title>Lead WEB-3 Developer</Card.Title>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in to
-          additional content. This card has even longer content than the first to
-          show that equal height action.
+        Hello, my name is Elliott Yu and go by name of Moocius leading the Web3 development part of this project. 
+        I’m in my final year of computer science degree with a broader range of software development and management background. 
+        This is my debut project outside of my uni work and excited to be part of the team! My passion for web3 developing and the crazy trends of the NFT world is what pulled me into this project. 
+        Although my professional expertise is minimal as compared to other team members in the projec, I can only promise that I will invest my 200% of effort to work toward the project success. 
+        I will be working closely with Hadeion (CTO) of this project in terms of development and will be responsible for our Web3 development for the project.  
         </Card.Text>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">Last updated 3 mins ago</small>
       </Card.Footer>
     </Card>
+
+    <Card id='CommunityManager'>
+      <Card.Img variant="top" src="holder.js/100px160" />
+      <Card.Body>
+        <Card.Title>Lead Designer</Card.Title>
+        <Card.Text>
+        Hi! My name is Ishitha Mahi, Ishy for short, and I'm the Lead Designer of O.B.I Game Studios. I'm an avid self-taught artist in my senior year of High School, who deals with a wide variety of art and design. 
+        My journey in art started when I was six, scrolling through the pages of comic books (Western and Indian ones) in fascination with the details and colors. 
+        I remember spending hours trying to replicate the designs and felt thrilled with the outcome, although my first drawings weren't pleasing to the eye. From then on, it's simply a fabulous journey as I learnt painting, sketching, digital art, 3D art and more. 
+        I still am trying to explore and learn new concepts/ideas while trying to express my different personas/experiences through character creation. 
+        I love video-games, horror/thriller novels, and the color Brown! Also, I've won many national chess championships, so I consider myself pretty good at it. 
+        Nevertheless, my career in design has just begun with the help of the devoted CEO, wonderful team, and energetic community! Follow @ishymahi on Instagram to follow up on my art journey.
+        You can add her twitters and such
+        </Card.Text>
+      </Card.Body>
+      <Card.Footer>
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </Card.Footer>
+    </Card>
+
+    <Card id='CommunityManager'>
+      <Card.Img variant="top" src="holder.js/100px160" />
+      <Card.Body>
+        <Card.Title>Division Head (Music Production)</Card.Title>
+        <Card.Text>
+        Hello, my name is Elliott Yu and go by name of Moocius leading the Web3 development part of this project. 
+        I’m in my final year of computer science degree with a broader range of software development and management background. 
+        This is my debut project outside of my uni work and excited to be part of the team! My passion for web3 developing and the crazy trends of the NFT world is what pulled me into this project. 
+        Although my professional expertise is minimal as compared to other team members in the projec, I can only promise that I will invest my 200% of effort to work toward the project success. 
+        I will be working closely with Hadeion (CTO) of this project in terms of development and will be responsible for our Web3 development for the project.  
+        </Card.Text>
+      </Card.Body>
+      <Card.Footer>
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </Card.Footer>
+    </Card>
+
   </CardGroup>
 
   
