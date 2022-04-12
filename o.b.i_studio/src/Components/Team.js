@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardGroup} from 'react-bootstrap';
-import { Container , Image} from 'react-bootstrap';
+import { Container , Image, Navbar} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CTO from '../Images/Team/CTO.png'
 import LeadDesigner from '../Images/Team/LeadDesigner.png'
 import ReadMore from './RaceComponents/ReadMore';
@@ -31,7 +32,15 @@ const Team = () => {
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <div>
+          <Navbar.Brand className='twitterLogo' target='_blank' href='https://mobile.twitter.com/obi_gamestudios'>
+          <FontAwesomeIcon icon={['fab', 'twitter']}/>
+          </Navbar.Brand>
+
+          <Navbar.Brand className='MediumLogo' target='_blank' href='https://medium.com/@o.b.i.gamestudios/the-story-of-obizoth-o-b-i-studios-2a83ddd85f1'>
+          <FontAwesomeIcon icon="fa-brands fa-medium" />
+          </Navbar.Brand>
+        </div>
       </Card.Footer>
     </Card>
 
