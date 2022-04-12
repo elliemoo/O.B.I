@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer_Img from '../Images/Footer_Image.png'
 import Nft_Img from '../Images/NFT_Calender.png'
-import { Container, Image } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 
 
 const Footer = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Nav, Navbar } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 
 const BrandLogos = () => {
   return (
@@ -19,7 +19,7 @@ const BrandLogos = () => {
         </div>
         
         <div>
-          <Navbar.Brand className='twitterLogo' target='_blank' href='https://opensea.io/collection/obi-studios'>
+          <Navbar.Brand className='openSeaLogo' target='_blank' href='https://opensea.io/collection/obi-studios'>
           <FontAwesomeIcon icon={['fab', 'opensea'] }/>
           </Navbar.Brand>
         </div>
