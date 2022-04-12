@@ -13,6 +13,8 @@
   font-size: 1.2em;
   padding: 2.5em;
   line-height: 1cm;
+  background-color: #212529;
+  color: white;
 }
 
 /* styling brandlogos */
@@ -129,5 +131,8 @@
 }
 
 .race-background {
-  width: 99vw !important;
+  width: 100% !important;
+  height: auto !important;
 }
+
+

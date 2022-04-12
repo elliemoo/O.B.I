@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Art from './Components/Art';
 import Team from './Components/Team';
 import RoadMap from './Components/RoadMap';
+import LustPage from './Races/Lust.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainContent from './Components/MainContent';
@@ -20,8 +21,9 @@ function App() {
       <Routes >
         <Route path='/Art' element={<Art/>}></Route>
         <Route path='/' element={<MainContent/>} ></Route>
-        <Route path='/Team' element={<Team></Team>}></Route>
-        <Route path='/RoadMap' element={<RoadMap></RoadMap>}></Route>
+        <Route path='/Team' element={<Team/>}></Route>
+        <Route path='/RoadMap' element={<RoadMap/>}></Route>
+        <Route path='/Lust' element={<LustPage/>}></Route>
       </Routes>
       <Footer/>
     </Router>
