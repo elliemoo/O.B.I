@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, Col, Row, Carousel } from 'react-bootstrap';
-import Background1 from '../../Images/4.png'
+import Background1 from '../../Races/Lust/LustBG.jpg'
 import LustM1 from '../../Races/Lust/Lust-M-1.png'
 import LustM2 from '../../Races/Lust/Lust-M-2.png'
 import LustF1 from '../../Races/Lust/Lust-F-1.png'
@@ -49,8 +49,8 @@ const LustPage = () => {
             </Carousel>
             </Card>
         </Col>
-        <Col sm={8} className='WrathText'>
-          <Card.Header>Valkarians</Card.Header>
+        <Col sm={8} className='LustText'>
+          <Card.Header><h2>Valkarians</h2></Card.Header>
           <Card.Body>
                 <Card.Title>Sin: Lust</Card.Title>
                 <Card.Text>

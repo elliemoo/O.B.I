@@ -30,8 +30,9 @@ const RoadMap = () => {
                 <p>This will be an AMA to truly highlight our Talented Core Team! This will be a Transparent & Open AMA to all questions! We will allow for the AMA to go on all day so that everyone may have their questions answered with closure! We want to truly make this an event that you all can enjoy by letting you Engage with all of us.</p>
               </ReadMore>
           </Card>
-            <br></br>
 
+            <br></br>
+            
           <Card border="secondary">
             <h4>Phase 2️⃣</h4>
             <p1>O.B.I. Studios Book Club</p1>

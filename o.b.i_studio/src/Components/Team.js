@@ -1,9 +1,11 @@
 import React from 'react'
 import { Card, CardGroup} from 'react-bootstrap';
-import { Container , Image, Navbar} from 'react-bootstrap';
+import { Container, Navbar} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CTO from '../Images/Team/CTO.png'
+import CEO from '../Images/Team/CEO.png'
 import LeadDesigner from '../Images/Team/LeadDesigner.png'
+import DivisionHead from '../Images/Team/DivisionHead.png'
 import ReadMore from './RaceComponents/ReadMore';
 
 const Team = () => {
@@ -11,7 +13,7 @@ const Team = () => {
     <Container>
     <CardGroup>
     <Card id='CEO'>
-      <Card.Img variant="top" src="holder.js/50px100"/>
+      <Card.Img variant="top" src={CEO}/>
       <Card.Body>
         <Card.Title>Chief Executive Officer</Card.Title>
         <Card.Text>
@@ -61,26 +63,7 @@ const Team = () => {
       </Card.Footer>
     </Card>
 
-    <Card id='Lead WEB-3 Developer'>
-      <Card.Img variant="top" src="holder.js/100px160" />
-      <Card.Body>
-        <Card.Title>Lead WEB-3 Developer</Card.Title>
-        <Card.Text>
-        Hello, my name is Elliott Yu and go by name of Moocius leading the Web3 development part of this project. 
-        I’m in my final year of computer science degree with a broader range of software development and management background. 
-        <ReadMore>
-        This is my debut project outside of my uni work and excited to be part of the team! My passion for web3 developing and the crazy trends of the NFT world is what pulled me into this project. 
-        Although my professional expertise is minimal as compared to other team members in the projec, I can only promise that I will invest my 200% of effort to work toward the project success. 
-        I will be working closely with Hadeion (CTO) of this project in terms of development and will be responsible for our Web3 development for the project.
-        </ReadMore> 
-        </Card.Text>
-      </Card.Body>
-      <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </Card.Footer>
-    </Card>
-
-    <Card id='CommunityManager'>
+    <Card id='LeadDesigner'>
       <Card.Img variant="top" src={LeadDesigner} />
       <Card.Body>
         <Card.Title>Lead Designer</Card.Title>
@@ -101,13 +84,20 @@ const Team = () => {
       </Card.Footer>
     </Card>
 
-    <Card id='CommunityManager'>
-      <Card.Img variant="top" src="holder.js/100px160" />
+    <Card id='DivisionHead'>
+      <Card.Img variant="top" src={DivisionHead} />
       <Card.Body>
         <Card.Title>Division Head (Music Production)</Card.Title>
         <Card.Text>
-         
+        Hello everyone! My name is Steven, and here at OBI Studios I oversee the musical production talent for our beautiful P2E MMORPG a web3 based video game and also a writer of our sin Lust for our web based novel. I’ve known and worked with heron for 5 years and have known cyklonus my whole life lol, because he is my blood brother.
         </Card.Text>
+        <ReadMore>
+          Both are very dedicated and talented producers who bring years of experience to the project. Each brings a different and unique sound to our P2E MMORPG web3 game, both having a huge drive and love for the craft of producing  music are very excited to bring you their very best, so together we have been working hard to bring you the highest quality. Now a little about myself lol, I’ve been a certified chef for the past 16 years and business owner for last 2, I was a dietary manager for a larger outsourced corporation for 6 years where I successfully managed and raised value of work operations in many of their retirement/nursing
+          homes. I’ve worked and interned at 5 star hotels and restaurants across NYC (one being the W hotel), country clubs in westchester,  successfully managed a mid size restaurant for 5 years bringing in high traffic and revenue with the high quality of service and products that we provided  and standards we lived by. That same restaurant I now am the proud owner of and have kept it thriving for the past  2 years after taking over and rebranding.  I strive to bring the best in everything I do! success is always the goal failure is never an option. Here at Obi studios we want to bring that same level of quality and level of success to our holders with our beautiful NFT project.
+          We want to bring to the NFT space what has been missing for a long time and that’s a project that will grow with their community and deliver a fun and exciting experience where together we are building something all our holders can benefit from. We like everyone else are tired of projects that fall short and can’t deliver or rug pulls and scams. We know what we would want from a great project and have team up with amazing ppl from all around to be able to truly deliver that experience. We want to build a strong bond and trust lvl with our community members So our investors feel more like family then asset holders,
+          we are building an environment where all are welcomed and a safe place where all can come and lean on and learn from one another. The same level of quality and success I’ve brought wherever I’ve worked and managed I will apply that same passion to this project to ensure we and our community benefit for years to come! Thank you for choosing to
+          Come on the journey with us! I guarantee you won’t be disappointed!!
+        </ReadMore>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">Last updated 3 mins ago</small>

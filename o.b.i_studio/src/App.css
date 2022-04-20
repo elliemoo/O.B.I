@@ -104,10 +104,10 @@
   line-height: 1cm;
 }
 
-.card-container div {
+.card-container {
   margin-left: 100px;
   margin-right: 100px;
-  text-align: center;
+  text-align: center !important;
 }
 
 
@@ -136,5 +136,9 @@
 }
 
 .WrathText{
-  color: white;
+  color: black;
+}
+
+.LustText{
+  color: black;
 }
