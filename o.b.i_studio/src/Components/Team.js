@@ -59,7 +59,11 @@ const Team = () => {
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
+      <div>
+          <Navbar.Brand className='twitterLogo' target='_blank' href='https://twitter.com/Hadeion_OBI'>
+          <FontAwesomeIcon icon={['fab', 'twitter']}/>
+          </Navbar.Brand>
+      </div>
       </Card.Footer>
     </Card>
 
@@ -80,7 +84,11 @@ const Team = () => {
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
+      <div>
+          <Navbar.Brand className='twitterLogo' target='_blank' href='https://twitter.com/TheKleptian'>
+          <FontAwesomeIcon icon={['fab', 'twitter']}/>
+          </Navbar.Brand>
+      </div>
       </Card.Footer>
     </Card>
 
@@ -89,18 +97,20 @@ const Team = () => {
       <Card.Body>
         <Card.Title>Division Head (Music Production)</Card.Title>
         <Card.Text>
-        Hello everyone! My name is Steven, and here at OBI Studios I oversee the musical production talent for our beautiful P2E MMORPG a web3 based video game and also a writer of our sin Lust for our web based novel. I’ve known and worked with heron for 5 years and have known cyklonus my whole life lol, because he is my blood brother.
+          Hello everyone! My name is Steven, and here at O.B.I. Studios, I oversee the musical production talent (Heron & Cyklonus) for our beautiful P2E MMORPG a web3 based video game, and also a writer of our sin Lust for our web-based novel.
         </Card.Text>
         <ReadMore>
-          Both are very dedicated and talented producers who bring years of experience to the project. Each brings a different and unique sound to our P2E MMORPG web3 game, both having a huge drive and love for the craft of producing  music are very excited to bring you their very best, so together we have been working hard to bring you the highest quality. Now a little about myself lol, I’ve been a certified chef for the past 16 years and business owner for last 2, I was a dietary manager for a larger outsourced corporation for 6 years where I successfully managed and raised value of work operations in many of their retirement/nursing
-          homes. I’ve worked and interned at 5 star hotels and restaurants across NYC (one being the W hotel), country clubs in westchester,  successfully managed a mid size restaurant for 5 years bringing in high traffic and revenue with the high quality of service and products that we provided  and standards we lived by. That same restaurant I now am the proud owner of and have kept it thriving for the past  2 years after taking over and rebranding.  I strive to bring the best in everything I do! success is always the goal failure is never an option. Here at Obi studios we want to bring that same level of quality and level of success to our holders with our beautiful NFT project.
-          We want to bring to the NFT space what has been missing for a long time and that’s a project that will grow with their community and deliver a fun and exciting experience where together we are building something all our holders can benefit from. We like everyone else are tired of projects that fall short and can’t deliver or rug pulls and scams. We know what we would want from a great project and have team up with amazing ppl from all around to be able to truly deliver that experience. We want to build a strong bond and trust lvl with our community members So our investors feel more like family then asset holders,
-          we are building an environment where all are welcomed and a safe place where all can come and lean on and learn from one another. The same level of quality and success I’ve brought wherever I’ve worked and managed I will apply that same passion to this project to ensure we and our community benefit for years to come! Thank you for choosing to
-          Come on the journey with us! I guarantee you won’t be disappointed!!
+        I’ve known and worked with Heron for 5 years and have known Cyclonus my whole life because he is my blood brother. Both are very dedicated and talented producers who bring years of experience to the project. Each brings a different and unique sound to our P2E MMORPG web3 game, both have a huge drive and love for the craft of producing music and are very excited to bring you their very best, so together we have been working hard to bring you the highest quality.I strive to bring the best in everything I do! success is always the goal failure is never an option. Here at O.B.I. studios, we want to bring that same level of quality and level of success to our holders with our beautiful NFT project. We want to bring to the NFT space what has been missing for a long time and that’s a project that will grow with their community and deliver a fun and exciting experience where together we are building something all our holders can benefit from. We like everyone else are tired of projects that fall short and can’t deliver or rug pulls and scams. 
+        We know what we would want from a great project and have teamed up with amazing people from all around to be able to truly deliver that experience. We want to build a strong bond and trust level with our community members. So our investors feel more like family than asset holders, we are building an environment where all are welcomed and a safe place where all can come and lean on and learn from one another. The same level of quality and success I’ve brought wherever I’ve worked and managed I will apply that same passion to this project to ensure we and our community benefit for years to come! 
+        Thank you for choosing to Come on the journey with us! I guarantee you won’t be disappointed!!
         </ReadMore>
       </Card.Body>
       <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
+      <div>
+          <Navbar.Brand className='twitterLogo' target='_blank' href='https://twitter.com/Valkary_OBIS'>
+          <FontAwesomeIcon icon={['fab', 'twitter']}/>
+          </Navbar.Brand>
+      </div>
       </Card.Footer>
     </Card>
 

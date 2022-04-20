@@ -6,8 +6,9 @@ const RoadMap = () => {
     <Container id='RoadMap'>
       <Card className='roadMap-Container' fluid >
         <Container className='card-container'>
-          <Card.Title><h1>Legacy's Beginning </h1></Card.Title><br></br>
+          <Card.Title><h1>Legacy's Beginning </h1></Card.Title><br></br>
           <Card.Title><h2>Pre-Mint</h2></Card.Title><br></br>
+
           <Card border="primary">
             <h4>Phase 1️⃣</h4>
             <p1>Birth of Zoth Lore/Sin's Taking Over Lore:</p1>
@@ -47,7 +48,7 @@ const RoadMap = () => {
 
             <p1>Soundtrack Discord Listening Party:</p1>
               <ReadMore>
-                <p>This will be our way of Highlighting our Amazingly Talented Music Producers and all their hard work. We will be Providing all of our Races Theme Songs!</p>
+                <p>This will be our way of Highlighting our Amazingly Talented Music Producers and all their hard work. We will be Providing all of our Races Theme Songs!</p>
               </ReadMore>
 
             <p1>Artist Presentation & Full Website Update</p1>
@@ -73,7 +74,7 @@ const RoadMap = () => {
 
             <p>NFT Web Novel Ending's Utility</p>
               <ReadMore>
-                <p>We will be explaining our DAO Staking utility of being able to Alter your Races Lore Book through staking into the site's Web Novel Page. We will be allowing our Holders to branch through the story to reach Different Endings!</p>
+                <p>We will be explaining our DAO Staking utility of being able to Alter your Races Lore Book through staking into the site's Web Novel Page. We will be allowing our Holders to branch through the story to reach Different Endings!</p>
               </ReadMore>
 
             <p>Merch Deals: Figurine Collection, Published Books, and Apparel</p>
