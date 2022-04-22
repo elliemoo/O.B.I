@@ -7,7 +7,7 @@ import About from './About';
 // MainContent will get updated to show different components {Art, Team}
 const MainContent = () => {
   return (
-    <Container fluid className='p-0'>
+    <Container fluid className='MainContent p-0'>
       <Image className='startImg' fluid alt='main image' src={Start_Img}/>
       <About id='About'/>
     </Container>

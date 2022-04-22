@@ -18,19 +18,22 @@ library.add(faOpensea);
 
 function App() {
   return (
+    <>  
+    <Header/>
     <Router>
-      <Header/>
-      <Routes >
-        <Route path='/Art' element={<Art/>}></Route>
-        <Route path='/' element={<MainContent/>} ></Route>
-        <Route path='/Team' element={<Team/>}></Route>
-        <Route path='/RoadMap' element={<RoadMap/>}></Route>
-        <Route path='/Lust' element={<LustPage/>}></Route>
-        <Route path='/Wrath' element={<WrathPage/>}></Route>
-        <Route path='/Gluttony' element={<GluttonyPage/>}></Route>
-      </Routes>
-      <Footer/>
+    <Routes >
+      <Route path='/Art' element={<Art/>}></Route>
+      <Route path='/' element={<MainContent/>} ></Route>
+      <Route path='/Team' element={<Team/>}></Route>
+      <Route path='/RoadMap' element={<RoadMap/>}></Route>
+      <Route path='/Lust' element={<LustPage/>}></Route>
+      <Route path='/Wrath' element={<WrathPage/>}></Route>
+      <Route path='/Gluttony' element={<GluttonyPage/>}></Route>
+    </Routes>
     </Router>
+    <Footer/>
+    </>
+    
   );
 }
 

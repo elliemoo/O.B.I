@@ -1,0 +1,36 @@
+/* flexing footer-inner , footer-nft-cal */
+.footer {
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* min-width: 0; */
+  word-wrap: break-word;
+  background-color: #212529;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* flexing .footer-logo, .footer-copy-right */
+.footer-inner {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+
+  width: 100px;
+}
+
+.footer-copy-right {
+  color: white;
+}
+
+.footer-nft-cal {
+  padding-right: 15px;
+}
+
+.footer-nft-cal img {
+  width: 70px;
+}
