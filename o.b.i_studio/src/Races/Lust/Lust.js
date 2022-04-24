@@ -5,11 +5,13 @@ import LustM2 from '../../Races/Lust/Lust-M-2.png'
 import LustF1 from '../../Races/Lust/Lust-F-1.png'
 import LustF2 from '../../Races/Lust/Lust-F-2.png'
 import './Lust.modules.css'
+import Footer from '../../Components/Footer';
 
 
 
 const LustPage = () => {
   return (
+    <>
         <Card className='Lust-container' >
             <Row>
                 <Col sm={4}>
@@ -63,7 +65,8 @@ const LustPage = () => {
                 </Col>
             </Row>
         </Card>
-
+        <Footer/>
+    </>
     )
 }
 

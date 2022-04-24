@@ -1,6 +1,7 @@
 /* flexing footer-inner , footer-nft-cal */
 .footer {
-  position: absolute;
+  scroll-snap-align: end;
+  position: relative;
   /* bottom: 0; */
   width: 100%;
   display: flex;

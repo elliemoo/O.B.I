@@ -2,6 +2,7 @@ import React from 'react';
 import './Styles/RoadMap.modules.css';
 import { Container, Card } from 'react-bootstrap';
 import ReadMore from './RaceComponents/ReadMore';
+import Footer from './Footer';
 
 // still need to edit CSS bit more to counter the weird scrolling behaviour when its at bottom of the screen.
 // alernative is adding footer in indiviual component. => this might fix the error for character view 
@@ -196,6 +197,7 @@ const RoadMap = () => {
             </div>
           </div>
         </section>
+        <Footer/>
         </div>
      </div>
     </>

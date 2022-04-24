@@ -10,9 +10,11 @@ import Sloth from './../Races/Sloth_Female.png';
 import Gluttony from './../Races/Gluttony/Gluttony_Female.png';
 import Greed from './../Races/Greed_Male.png';
 import Pride from './../Races/Pride_Male.png';
+import Footer from './Footer';
 
 const Art = () => {
   return (
+  <>
     <Container fluid className='art-contianer'>
       {<ReactAudioPlayer
         src={BGM}
@@ -137,6 +139,9 @@ const Art = () => {
         </Card>
       </CardGroup>
     </Container>
+    <Footer/>
+  </>
+    
 
   )
 }

@@ -31,7 +31,7 @@ function App() {
       <Route path='/Gluttony' element={<GluttonyPage/>}></Route>
     </Routes>
     </Router>
-    <Footer/>
+    {/* <Footer/> */}
     </>
     
   );
