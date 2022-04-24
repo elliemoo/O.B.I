@@ -13,7 +13,7 @@ Footer height : 100px
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: calc(100vh - 126px);
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   text-align: center;
   position: relative;
@@ -23,26 +23,26 @@ Footer height : 100px
   display: none;
 } */
 section {
-  /* margin-top: 86px; */
   height: calc(100vh - 126px);
   scroll-snap-align: start;
   position: relative;
 }
 
 .phase-1 {
-  background:#f6e58d;
+  background:#8f9d83
 }
 .phase-2 {
-  background: #ffbe76;
+  background: #c3aaab
+  
 }
 .phase-3 {
-  background: #ff7979;
+  background: #9eadb7
 }
 .phase-4 {
-  background: #badc58;
+  background: #93745e
 }
 .phase-5 {
-  background: #dff9fb;
+  background: #8d8db5
 }
 
 
@@ -53,7 +53,7 @@ section {
 }
 
 .timeline-container{
-  height: calc(100vh - 86px);
+  height: calc(100vh - 126px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +63,7 @@ section {
 .timeline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -74,22 +74,22 @@ section {
 
 .timeline-content {
   padding: 10px;
-  background-color: #1e1f22;
+  background-color: #1e1f22 !important;
   color: white;
   border-radius: 10px;
   width: 80%;
   left: 10%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 .timeline-content h1 {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  /* font-weight: 500; */
   /* line-height: 30px; */
 }
 .timeline-content p {
-  font-size: 12px;
+  font-size: 1px;
   line-height: 20px;
   font-weight: 300;
 }
@@ -115,7 +115,8 @@ section {
   transform: translate(-50%,-50%);
 }
 
-@media (min-width: 768px) {
+/* width 470 is when navbar gets thicker by flex wrapping */
+@media (min-width: 470px) {
   section {
     height: calc(100vh - 86px);
   }
@@ -123,12 +124,13 @@ section {
     height: calc(100vh - 86px);
   }
   .timeline-content {
-    left: 20%;
-    width: 60%;
+    left: 25%;
+    width: 50%;
   }
+
  
   .timeline-container{
-    height: calc(100vh - 126px);
+    height: calc(100vh - 86px);
   }
 
 } 
