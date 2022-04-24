@@ -29,7 +29,8 @@ section {
 }
 
 .phase-1 {
-  background:#8f9d83
+  /* background:#8f9d83 */
+  background-image: url('../../Images/RoadMapBG.jpg');
 }
 .phase-2 {
   background: #c3aaab
@@ -60,6 +61,9 @@ section {
   align-items: center;
   position: relative;
 }
+.timeline-container >  h1 {
+  color: white;
+}
 .timeline {
   display: flex;
   flex-direction: column;
@@ -68,7 +72,6 @@ section {
   height: 100%;
   margin: 0 auto;
   position: relative;
-  /* background-color: red; */
 }
 
 
@@ -134,3 +137,7 @@ section {
   }
 
 } 
+
+.modal-content {
+  background-color: none !important;
+}
