@@ -34,7 +34,7 @@ const Header = () => {
   // const handleLeave = () => {
   //   setVisible((prevVisible) => (prevVisible = 'd-none'));
   // }
-  
+  const [expanded, setExpanded] = useState("")
 
   return (
     <div className='sticky-top m-0 p-0'>
@@ -52,15 +52,15 @@ const Header = () => {
 
           <BrandLogos/>
           
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? "" : " show")}/>
+          <div className={`navbar-collapse collapse ${expanded}`}>
             <Nav className='ms-2'>
-              <Link data-toggle="collapse" to='/#About' offset = {150} className='nav-link'>About</Link>
+              <Link onClick={() => setExpanded('')} to='/#About' offset = {150} className='nav-link'>About</Link>
               <Nav.Link href='/Art' className='nav-link'> Art </Nav.Link>
               <Nav.Link href='/Team' className='nav-link'> Team </Nav.Link>
               <Nav.Link href='/RoadMap' className='nav-link'>Road Map</Nav.Link>          
             </Nav>
-          </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
 
