@@ -7,7 +7,6 @@ const About = () => {
     if (location.hash) {
         let elem = document.getElementById(location.hash.slice(1))
         if (elem) {
-            // elem.scrollIntoView({behavior: "smooth"})
             const id = 'About';
             const yOffset = -86; 
             const element = document.getElementById(id);
@@ -19,7 +18,6 @@ const About = () => {
     window.scrollTo({top:0,left:0, behavior: "smooth"})
     }
   }, [location])
-console.log(location)
   return (
     <Card id='About' className='aboutCard border-0'>
         <Card.Body>
