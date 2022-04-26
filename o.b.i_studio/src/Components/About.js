@@ -1,6 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card } from 'react-bootstrap';
+import { useLocation } from 'react-router-dom';
 const About = () => {
+  const location = useLocation()
+  useEffect(()=> {
+    if (location.hash) {
+        let elem = document.getElementById(location.hash.slice(1))
+        if (elem) {
+            // elem.scrollIntoView({behavior: "smooth"})
+            const id = 'About';
+            const yOffset = -86; 
+            const element = document.getElementById(id);
+            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({top: y, behavior: 'smooth'});
+        }
+    } else {
+    window.scrollTo({top:0,left:0, behavior: "smooth"})
+    }
+  }, [location])
+console.log(location)
   return (
     <Card id='About' className='aboutCard border-0'>
         <Card.Body>

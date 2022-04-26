@@ -7,7 +7,7 @@ import LustPage from './Races/Lust/Lust.js';
 import WrathPage from './Races/Wrath/Wrath.js';
 import GluttonyPage from './Races/Gluttony/Gluttony.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, MemoryRouter, Route, Routes } from 'react-router-dom';
 import MainContent from './Components/MainContent';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -19,8 +19,9 @@ library.add(faOpensea);
 function App() {
   return (
     <>  
-    <Header/>
+
     <Router>
+    <Header/>
     <Routes >
       <Route path='/Art' element={<Art/>}></Route>
       <Route path='/' element={<MainContent/>} ></Route>
