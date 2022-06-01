@@ -7,7 +7,7 @@ import CEO from '../Images/Team/CEO.png'
 import LeadDesigner from '../Images/Team/LeadDesigner.png'
 import DivisionHead from '../Images/Team/DivisionHead.png'
 import ReadMore from './RaceComponents/ReadMore';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 const Team = () => {
   return (

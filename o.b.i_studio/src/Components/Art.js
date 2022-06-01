@@ -8,7 +8,7 @@ import Sloth from './../Races/Sloth_Female.png';
 import Gluttony from './../Races/Gluttony/Gluttony_Female.png';
 import Greed from './../Races/Greed_Male.png';
 import Pride from './../Races/Pride_Male.png';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 const Art = () => {
   return (

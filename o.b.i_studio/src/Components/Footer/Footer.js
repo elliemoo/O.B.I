@@ -1,8 +1,16 @@
 import React from 'react'
-import Footer_Img from '../Images/Footer_Image.png'
-import Nft_Img from '../Images/NFT_Calender.png'
+import Footer_Img from './Footer_Image.png'
+import Nft_Img from './NFT_Calender.png'
 import { Image } from 'react-bootstrap'
-import './Styles/Footer.modules.css'; 
+import './Footer.modules.css';
+import {
+  Box,
+  Container,
+  Row,
+  Column,
+  FooterLink,
+  Heading,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
