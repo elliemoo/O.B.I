@@ -10,7 +10,7 @@ const Header = () => {
     return (
       <div className='sticky-top m-0 p-0'>
         
-        <Navbar bg='dark' variant='dark' sticky='top' expand='md' >
+        <Navbar style={{backgroundColor: 'black'}} variant='dark' sticky='top' expand='md' >
           <Container fluid className='navbarInnerContainer'>
             <Navbar.Brand href='/' >
               <img height='60' className='d-inline-block ms-0 me-3' alt='obi logo' src={Logo}/>
@@ -31,6 +31,7 @@ const Header = () => {
               </Nav>
             </div>
           </Container>
+          <BrandLogos/>
         </Navbar>
     </div>
   );

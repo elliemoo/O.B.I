@@ -19,7 +19,7 @@ const About = () => {
     }
   }, [location])
   return (
-    <Card id='About' className='aboutCard border-0'>
+    <Card style={{backgroundColor: 'black'}}id='About' className='aboutCard border-0'>
         <Card.Body>
           <p>Here at O.B.I. we pride ourselves on providing only Professional Quality with everything we do. We are currently working on our masterpiece <strong>Omnipotent Being’s Inter-Dimensional</strong>, 
           a 2D Hand-Drawn MMORPG that has Play To Earn mechanics built in. We are building towards being a pioneer in the NFT P2E Gaming Industry, by hiring only the best for our Team!</p>

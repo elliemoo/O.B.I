@@ -4,8 +4,7 @@ import { Navbar } from 'react-bootstrap'
 
 const BrandLogos = () => {
   return (
-    <div className='linkContainer'>
-        
+    <div className='linkContainer' style={{backgroundColor: 'black'}}>
         <div>
           <Navbar.Brand className='discordLogo' target='_blank' href='https://discord.gg/QyztzFqzFx'>
           <FontAwesomeIcon icon={['fab', 'discord']}/>
