@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Art from './Components/Art';
 import Team from './Components/Team';
+import LuckyBox from './Components/LuckyBox';
 import RoadMap from './Components/RoadMap';
 import LustPage from './Races/Lust/Lust.js';
 import WrathPage from './Races/Wrath/Wrath.js';
@@ -26,6 +27,7 @@ function App() {
       <Route path='/Art' element={<Art/>}></Route>
       <Route path='/' element={<MainContent/>} ></Route>
       <Route path='/Team' element={<Team/>}></Route>
+      <Route path='/LuckyBox' element={<LuckyBox/>}></Route>
       <Route path='/RoadMap' element={<RoadMap/>}></Route>
       <Route path='/Lust' element={<LustPage/>}></Route>
       <Route path='/Wrath' element={<WrathPage/>}></Route>
