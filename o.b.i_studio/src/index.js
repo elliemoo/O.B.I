@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LuckyBox from './Components/LuckyBox';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <LuckyBox/>
   </React.StrictMode>,
   document.getElementById('root')
 );
