@@ -1,5 +1,5 @@
 import React from 'react';
-import Start_Img from '../Images/movingbg.mp4';
+import Start_Img from '../Images/Background-1.png';
 import { Container , Image} from 'react-bootstrap';
 import About from './About';
 import Footer from './Footer';

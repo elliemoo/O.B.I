@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Card, CardGroup, Button } from 'react-bootstrap';
-import ReactAudioPlayer from 'react-audio-player';
-import BGM from '../BGM.mp3'
 import Lust from './../Races/Lust/Lust_Female.png';
 import Envy from './../Races/Envy_Male.png';
 import Zoth from './../Races/Zoth_Female.png';
@@ -16,13 +14,6 @@ const Art = () => {
   return (
   <>
     <Container fluid className='art-contianer'>
-      {<ReactAudioPlayer
-        src={BGM}
-        loop="true"
-        autoStart={true}
-        autoPlay={true}
-      />}
-
       <CardGroup>
         <Card>
           <Card.Img className='race-img' src={Lust}></Card.Img>
