@@ -13,9 +13,7 @@ const MainContent = () => {
       <Image className='startImg' fluid alt='main image' src={Start_Img}/>
       <About id='About'/>
     </Container>
-    <Footer/>
     </>
-    
   );
 }
 

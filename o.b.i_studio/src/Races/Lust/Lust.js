@@ -65,7 +65,6 @@ const LustPage = () => {
                 </Col>
             </Row>
         </Card>
-        <Footer/>
     </>
     )
 }

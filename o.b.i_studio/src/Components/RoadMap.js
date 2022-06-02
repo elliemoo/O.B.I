@@ -1,6 +1,5 @@
 import React from 'react';
 import './Styles/RoadMap.modules.css';
-import Footer from './Footer/Footer';
 
 import RoadMapComponent from './RoadMapComponent';
 
@@ -192,7 +191,6 @@ const RoadMap = () => {
           </div>
         </div>
       </section>
-      <Footer/>
     </div>
     </>
   )

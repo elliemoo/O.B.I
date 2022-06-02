@@ -29,8 +29,7 @@ section {
 }
 
 .phase-1 {
-  /* background:#8f9d83 */
-  background-image: url('../../Images/RoadMapBG.jpg');
+  background:#8f9d83
 }
 .phase-2 {
   background: #c3aaab

@@ -3,18 +3,10 @@ import Footer_Img from './Footer_Image.png'
 import Nft_Img from './NFT_Calender.png'
 import { Image } from 'react-bootstrap'
 import './Footer.modules.css';
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div style={{backgroundColor: 'black'}}className='footer'>
       <div className='footer-inner'>
         <div className='footer-logo'>
           <Image alt='Footer Logo' src={Footer_Img}/>

@@ -20,7 +20,6 @@ library.add(faOpensea);
 function App() {
   return (
     <>  
-
     <Router>
     <Header/>
     <Routes >
@@ -34,7 +33,7 @@ function App() {
       <Route path='/Gluttony' element={<GluttonyPage/>}></Route>
     </Routes>
     </Router>
-    {/* <Footer/> */}
+    <Footer/>
     </>
     
   );

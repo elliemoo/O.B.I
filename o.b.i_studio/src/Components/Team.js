@@ -12,7 +12,7 @@ import Footer from './Footer/Footer';
 const Team = () => {
   return (
     <>
-      <Container>
+    <Container>
       <CardGroup>
       <Card id='CEO'>
         <Card.Img variant="top" src={CEO}/>
@@ -118,7 +118,6 @@ const Team = () => {
 
       </CardGroup>
     </Container>
-    <Footer/>
     </>
     
   

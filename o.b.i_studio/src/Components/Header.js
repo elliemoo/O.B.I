@@ -18,7 +18,6 @@ const Header = () => {
             <Navbar.Brand href='/'>
               <div>O.B.I. Studios</div>
             </Navbar.Brand>
-            <BrandLogos/>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? "" : " show")}/>
             <div className={`navbar-collapse collapse ${expanded}`}>

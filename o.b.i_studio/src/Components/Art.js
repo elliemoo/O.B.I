@@ -13,9 +13,10 @@ import Footer from './Footer/Footer';
 const Art = () => {
   return (
   <>
-    <Container fluid className='art-contianer'>
+    <Container fluid className='art-contianer' style={{backgroundColor: 'white', color: 'white'}}>
+    <br></br>
       <CardGroup>
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Lust}></Card.Img>
           <Card.Header>Valkarians</Card.Header>
           <Card.Body>
@@ -28,8 +29,8 @@ const Art = () => {
             <Button variant="dark" href="/Lust">Read More</Button>{' '}
           </Card.Footer>
         </Card>
-
-        <Card>
+        
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Envy}></Card.Img>
           <Card.Header>Ophites</Card.Header>
           <Card.Body>
@@ -43,7 +44,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
 
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Zoth}></Card.Img>
           <Card.Header>Zoth</Card.Header>
           <Card.Body>
@@ -57,7 +58,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
 
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Wrath}></Card.Img>
           <Card.Header>Hadesian</Card.Header>
           <Card.Body>
@@ -73,7 +74,7 @@ const Art = () => {
       </CardGroup>
       <br></br><br></br>
       <CardGroup>
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Sloth}></Card.Img>
           <Card.Header>Xenarths</Card.Header>
           <Card.Body>
@@ -87,7 +88,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
 
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Gluttony}></Card.Img>
           <Card.Header>Ardenterians</Card.Header>
           <Card.Body>
@@ -101,7 +102,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
 
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Greed}></Card.Img>
           <Card.Header>Kleptians</Card.Header>
           <Card.Body>
@@ -115,7 +116,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
 
-        <Card>
+        <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Pride}></Card.Img>
           <Card.Header>Icarians</Card.Header>
           <Card.Body>
@@ -129,8 +130,8 @@ const Art = () => {
           </Card.Footer>
         </Card>
       </CardGroup>
+      <br></br>
     </Container>
-    <Footer/>
   </>
     
 
