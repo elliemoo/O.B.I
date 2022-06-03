@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Card, CardGroup, Button} from 'react-bootstrap';
 import Lust from './../Races/Lust/Lust_Female.png';
 import Envy from './../Races/Envy/Envy_Male.png';
-import Zoth from './../Races/Zoth_Female.png';
+import Zoth from './../Races/Zoth/Zoth_Female.png';
 import Wrath from './../Races/Wrath/Wrath_Male.png';
-import Sloth from './../Races/Sloth_Female.png';
+import Sloth from './../Races/Sloth/Sloth_Female.png';
 import Gluttony from './../Races/Gluttony/Gluttony_Female.png';
 import Greed from './../Races/Greed/Greed_Male.png';
 import Pride from './../Races/Pride/Pride_Male.png';
@@ -53,7 +53,7 @@ const Art = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="dark" href="/Lust">Read More</Button>{' '}
+            <Button variant="dark" href="/Zoth">Read More</Button>{' '}
           </Card.Footer>
         </Card>
 
@@ -83,7 +83,7 @@ const Art = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="dark" href="/Lust">Read More</Button>{' '}
+            <Button variant="dark" href="/Sloth">Read More</Button>{' '}
           </Card.Footer>
         </Card>
 

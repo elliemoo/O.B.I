@@ -8,6 +8,8 @@ import LustPage from './Races/Lust/Lust.js';
 import WrathPage from './Races/Wrath/Wrath.js';
 import GreedPage from './Races/Greed/Greed.js';
 import PridePage from './Races/Pride/Pride.js';
+import SlothPage from './Races/Sloth/Sloth.js';
+import ZothPage from './Races/Zoth/Zoth.js';
 import EnvyPage from './Races/Envy/Envy.js';
 import GluttonyPage from './Races/Gluttony/Gluttony.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,6 +39,8 @@ function App() {
       <Route path='/Greed' element={<GreedPage/>}></Route>
       <Route path='/Pride' element={<PridePage/>}></Route>
       <Route path='/Envy' element={<EnvyPage/>}></Route>
+      <Route path='/Sloth' element={<SlothPage/>}></Route>
+      <Route path='/Zoth' element={<ZothPage/>}></Route>
     </Routes>
     </Router>
     <Footer/>
