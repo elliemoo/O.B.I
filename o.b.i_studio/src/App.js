@@ -2,13 +2,16 @@ import './App.css';
 import Header from './Components/Header';
 import Art from './Components/Art';
 import Team from './Components/Team';
-import LuckyBox from './Components/LuckyBox';
+import LuckyBox from './Components/LuckyBox.js';
 import RoadMap from './Components/RoadMap';
 import LustPage from './Races/Lust/Lust.js';
 import WrathPage from './Races/Wrath/Wrath.js';
+import GreedPage from './Races/Greed/Greed.js';
+import PridePage from './Races/Pride/Pride.js';
+import EnvyPage from './Races/Envy/Envy.js';
 import GluttonyPage from './Races/Gluttony/Gluttony.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, MemoryRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainContent from './Components/MainContent';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -31,6 +34,9 @@ function App() {
       <Route path='/Lust' element={<LustPage/>}></Route>
       <Route path='/Wrath' element={<WrathPage/>}></Route>
       <Route path='/Gluttony' element={<GluttonyPage/>}></Route>
+      <Route path='/Greed' element={<GreedPage/>}></Route>
+      <Route path='/Pride' element={<PridePage/>}></Route>
+      <Route path='/Envy' element={<EnvyPage/>}></Route>
     </Routes>
     </Router>
     <Footer/>

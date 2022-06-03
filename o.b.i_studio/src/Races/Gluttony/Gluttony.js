@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, Col, Row, Carousel } from 'react-bootstrap';
-// import Background1 from '../../Races/Lust/LustBG.jpg'
+import './Gluttony.modules.css'
 import GluttonyM1 from '../../Races/Gluttony/Gluttony-M-1.png'
 import GluttonyM2 from '../../Races/Gluttony/Gluttony-M-2.png'
 import GluttonyF1 from '../../Races/Gluttony/Gluttony-F-1.png'
@@ -11,9 +11,7 @@ import GluttonyF2 from '../../Races/Gluttony/Gluttony-F-2.png'
 
 const GluttonyPage = () => {
   return (
-<Card>
-{/* <Card.Img src={Background1}/>
-<Card.ImgOverlay> */}
+<Card className="Gluttony-container">
     <Row>
         <Col sm={4}>
         <Card >
@@ -49,7 +47,7 @@ const GluttonyPage = () => {
             </Carousel>
             </Card>
         </Col>
-        <Col sm={8} className='GluttonyText'>
+        <Col sm={8} className='GluttonyText' style={{color: 'White'}}>
           <Card.Header><h2>Ardenterians</h2></Card.Header>
           <Card.Body>
                 <Card.Title>Sin: Gluttony</Card.Title>

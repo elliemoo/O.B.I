@@ -5,14 +5,13 @@ import LustM2 from '../../Races/Lust/Lust-M-2.png'
 import LustF1 from '../../Races/Lust/Lust-F-1.png'
 import LustF2 from '../../Races/Lust/Lust-F-2.png'
 import './Lust.modules.css'
-import Footer from '../../Components/Footer/Footer';
 
 
 
 const LustPage = () => {
   return (
     <>
-        <Card className='Lust-container' >
+        <Card className='Lust-container'  >
             <Row>
                 <Col sm={4}>
                 <Card>
@@ -48,7 +47,7 @@ const LustPage = () => {
                     </Carousel>
                     </Card>
                 </Col>
-                <Col sm={8} className='LustText'>
+                <Col sm={8} className='LustText' style={{color: 'Black'}}>
                 <Card.Header><h2>Valkarians</h2></Card.Header>
                 <Card.Body>
                         <Card.Title>Sin: Lust</Card.Title>

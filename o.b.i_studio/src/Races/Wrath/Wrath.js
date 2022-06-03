@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, Col, Row, Carousel } from 'react-bootstrap';
-// import Background1 from '../../Images/2.png'
+import './Wrath.modules.css'
 import WrathM1 from '../../Races/Wrath/Wrath-M-1.png'
 import WrathM2 from '../../Races/Wrath/Wrath-M-2.png'
 import WrathF1 from '../../Races/Wrath/Wrath-F-1.png'
@@ -11,9 +11,7 @@ import WrathF2 from '../../Races/Wrath/Wrath-F-2.png'
 
 const WrathPage = () => {
   return (
-<Card>
-{/* <Card.Img src={Background1}/>
-<Card.ImgOverlay> */}
+<Card className="Wrath-container">
     <Row>
         <Col sm={4}>
         <Card>
@@ -49,7 +47,7 @@ const WrathPage = () => {
             </Carousel>
             </Card>
         </Col>
-        <Col sm={8} className='WrathText'>
+        <Col sm={8} className='WrathText' style={{color: 'White'}}>
           <Card.Header><h2>Hadesian</h2></Card.Header>
           <Card.Body>
                 <Card.Title>Sin: Wrath</Card.Title>
