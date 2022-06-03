@@ -11,7 +11,7 @@ import './Lust.modules.css'
 const LustPage = () => {
   return (
     <>
-        <Card className='Lust-container'  >
+        <Card className='Lust-container' style={{ width: '100vw', height:'100vh'}} >
             <Row>
                 <Col sm={4}>
                 <Card>

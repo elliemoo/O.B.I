@@ -11,7 +11,7 @@ import './Greed.modules.css'
 const GreedPage = () => {
   return (
     <>
-        <Card className='Greed-container'  >
+        <Card className='Greed-container' style={{ width: '100vw', height:'100vh'}} >
             <Row>
                 <Col sm={4}>
                 <Card>

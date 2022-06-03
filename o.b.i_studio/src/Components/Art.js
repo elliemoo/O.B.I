@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, CardGroup, Button } from 'react-bootstrap';
+import { Container, Card, CardGroup, Button} from 'react-bootstrap';
 import Lust from './../Races/Lust/Lust_Female.png';
 import Envy from './../Races/Envy/Envy_Male.png';
 import Zoth from './../Races/Zoth_Female.png';
@@ -13,8 +13,7 @@ import Pride from './../Races/Pride/Pride_Male.png';
 const Art = () => {
   return (
   <>
-    <Container fluid className='art-contianer' style={{backgroundColor: 'white', color: 'white'}}>
-    <br></br>
+    <Container fluid className='art-contianer' style={{backgroundColor: 'black', color: 'white'}}>
       <CardGroup>
         <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Lust}></Card.Img>
@@ -72,7 +71,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
       </CardGroup>
-      <br></br><br></br>
+      <br></br>
       <CardGroup>
         <Card style={{backgroundColor: 'black'}} border="white">
           <Card.Img className='race-img' src={Sloth}></Card.Img>
@@ -130,7 +129,7 @@ const Art = () => {
           </Card.Footer>
         </Card>
       </CardGroup>
-      <br></br>
+
     </Container>
   </>
     

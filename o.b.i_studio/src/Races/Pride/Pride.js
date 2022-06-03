@@ -11,7 +11,7 @@ import './Pride.modules.css'
 const PridePage = () => {
   return (
     <>
-        <Card className='Pride-container'  >
+        <Card className='Pride-container' style={{ width: '100vw', height:'100vh'}} >
             <Row>
                 <Col sm={4}>
                 <Card>

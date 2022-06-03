@@ -11,7 +11,7 @@ import GluttonyF2 from '../../Races/Gluttony/Gluttony-F-2.png'
 
 const GluttonyPage = () => {
   return (
-<Card className="Gluttony-container">
+<Card className="Gluttony-container" style={{ width: '100vw', height:'100vh'}}>
     <Row>
         <Col sm={4}>
         <Card >

@@ -11,7 +11,7 @@ import WrathF2 from '../../Races/Wrath/Wrath-F-2.png'
 
 const WrathPage = () => {
   return (
-<Card className="Wrath-container">
+<Card className="Wrath-container" style={{ width: '100vw', height:'100vh'}}>
     <Row>
         <Col sm={4}>
         <Card>
