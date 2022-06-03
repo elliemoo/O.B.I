@@ -30,12 +30,10 @@ export default class ETH extends React.Component {
         }, 3000);
     }
 
-
-
         render() {        
         return(
             <div>
-            <h1>ETH Price: {this.state.price}</h1>
+            <p1  style={{color: 'White'}}>{this.state.price}</p1>
             </div>
         )
 

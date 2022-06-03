@@ -11,7 +11,7 @@ import './Envy.modules.css'
 const EnvyPage = () => {
   return (
     <>
-        <Card className='Envy-container'  >
+        <Card className='Envy-container'>
             <Row>
                 <Col sm={4}>
                 <Card>

@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Art from './Components/Art';
 import Team from './Components/Team';
-import LuckyBox from './Components/LuckyBox.js';
+import LuckyBox from './Components/LuckyBox/LuckyBox.js';
 import RoadMap from './Components/RoadMap';
 import LustPage from './Races/Lust/Lust.js';
 import WrathPage from './Races/Wrath/Wrath.js';
