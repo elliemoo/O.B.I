@@ -47,7 +47,7 @@ const GreedPage = () => {
                     </Carousel>
                     </Card>
                 </Col>
-                <Col sm={8} className='GreedText' style={{color: 'White'}}>
+                <Col sm={8} className='GreedText' style={{color: 'Black'}}>
                 <Card.Header><h2>Kleptians</h2></Card.Header>
                 <Card.Body>
                         <Card.Title>Sin: Greed</Card.Title>

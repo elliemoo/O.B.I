@@ -47,7 +47,7 @@ const SlothPage = () => {
                     </Carousel>
                     </Card>
                 </Col>
-                <Col sm={8} className='SlothText' style={{color: 'White'}}>
+                <Col sm={8} className='SlothText' style={{color: 'Black'}}>
                 <Card.Header><h2>Xenarths</h2></Card.Header>
                 <Card.Body>
                         <Card.Title>Sin: Sloth</Card.Title>
