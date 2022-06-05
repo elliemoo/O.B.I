@@ -3,7 +3,7 @@ import Header from './Components/Header';
 import Art from './Components/Art';
 import Team from './Components/Team';
 import LuckyBox from './Components/LuckyBox/LuckyBox.js';
-import RoadMap from './Components/RoadMap';
+import RoadMap from './Components/RoadMap/RoadMap';
 import LustPage from './Races/Lust/Lust.js';
 import WrathPage from './Races/Wrath/Wrath.js';
 import GreedPage from './Races/Greed/Greed.js';

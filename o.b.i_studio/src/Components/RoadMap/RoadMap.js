@@ -1,6 +1,5 @@
 import React from 'react';
-import './Styles/RoadMap.modules.css';
-
+import './RoadMap.modules.css';
 import RoadMapComponent from './RoadMapComponent';
 
 // still need to edit CSS bit more to counter the weird scrolling behaviour when its at bottom of the screen.
@@ -12,7 +11,7 @@ const RoadMap = () => {
     <div className='RoadMap'>
       <section className='phase-1'>
         <div className='timeline-container'>
-          <h1>Phase 1</h1>
+          <h1>Phase - 1</h1>
           <div className='timeline'>
             
             <div className='timeline-content'>
@@ -53,7 +52,7 @@ const RoadMap = () => {
       </section>
       <section className='phase-2'>
         <div className='timeline-container'>
-          <h1>Phase 2</h1>
+          <h1>Phase - 2</h1>
           <div className='timeline'>
             <div className='timeline-content'>
               <RoadMapComponent 
@@ -103,7 +102,7 @@ const RoadMap = () => {
       </section>
       <section className='phase-3'>
         <div className='timeline-container'>
-          <h1>Phase 3</h1>
+          <h1>Phase - 3</h1>
           <div className='timeline'>
             <div className='timeline-content'>
               <RoadMapComponent 
@@ -129,7 +128,7 @@ const RoadMap = () => {
       </section>
       <section className='phase-4'>
         <div className='timeline-container'>
-          <h1>Phase 4</h1>
+          <h1>Phase - 4</h1>
           <div className='timeline'>
             <div className='timeline-content'>
               <RoadMapComponent 
@@ -161,7 +160,7 @@ const RoadMap = () => {
       </section>
       <section className='phase-5'>
         <div className='timeline-container'>
-          <h1>Phase 5</h1>
+          <h1>Phase - 5</h1>
           <div className='timeline'>
             <div className='timeline-content'>
               <RoadMapComponent 

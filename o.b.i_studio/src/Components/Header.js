@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Container, Nav, Navbar} from 'react-bootstrap';
 import Logo from '../Images/OBI_logo.gif';
-import BrandLogos from './BrandLogos';
+import BrandLogos from './BrandLogos/BrandLogos';
 import { Link} from 'react-router-dom';
 
 const Header = () => {
