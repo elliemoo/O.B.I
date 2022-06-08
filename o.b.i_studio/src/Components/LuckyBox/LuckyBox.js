@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardGroup, Button, Container, Navbar, Table, Row, Col} from 'react-bootstrap';
 import Vue from 'vue'
 import { VuePlugin } from 'vuera'
-import chest from './chest.png'
+import chest from './Chest.GIF'
 import WalletCard from '../WalletConnect/MetaMask.js'
 import ETH from '../WalletConnect/ETHPrice.js'
 import Price from './LuckyBoxPrice.js'

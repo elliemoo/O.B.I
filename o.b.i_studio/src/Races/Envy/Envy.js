@@ -11,11 +11,11 @@ import './Envy.modules.css'
 const EnvyPage = () => {
   return (
     <>
-        <Card className='Envy-container' style={{ width: '100vw', height:'100vh'}}>
+        <Card className='Envy-container' style={{ width: '100%', height:'100vh'}}>
             <Row>
                 <Col sm={4}>
                 <Card>
-                    <Carousel fade>
+                    <Carousel fade style={{width: '80% !important'}}>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"

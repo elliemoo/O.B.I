@@ -1,11 +1,4 @@
-/* 
-Navbar height
-min: 110 + 16(top&bottom padding) = 126px 
-expanded : 80 + 16(top&bottom padding) = 86px
 
-
-Footer height : 100px
-*/
 
 .RoadMap {
   /* margin-top: 86px; */
@@ -19,9 +12,8 @@ Footer height : 100px
   position: relative;
   
 }
-/* .RoadMap::-webkit-scrollbar {
-  display: none;
-} */
+
+
 section {
   height: calc(100vh - 126px);
   scroll-snap-align: start;
@@ -29,20 +21,29 @@ section {
 }
 
 .phase-1 {
-  background:#8f9d83
+  background-image: url(./Phase1.png);
+  background-size: 100% 100%;
+  background-repeat:no-repeat; 
 }
 .phase-2 {
-  background: #c3aaab
-  
+  background-image: url(./Phase2.png);
+  background-size: 100% 100%;
+  background-repeat:no-repeat; 
 }
 .phase-3 {
-  background: #9eadb7
+  background-image: url(./Phase3.png);
+  background-size: 100% 100%;
+  background-repeat:no-repeat; 
 }
 .phase-4 {
-  background: #93745e
+  background-image: url(./Phase4.png);
+  background-size: 100% 100%;
+  background-repeat:no-repeat; 
 }
 .phase-5 {
-  background: #8d8db5
+  background-image: url(./Phase5.png);
+  background-size: 100% 100%;
+  background-repeat:no-repeat; 
 }
 
 

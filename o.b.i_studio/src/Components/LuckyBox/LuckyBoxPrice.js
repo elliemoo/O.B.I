@@ -33,7 +33,7 @@ export default class Price extends React.Component {
         render() {       
         return(
             <div>
-            <p1  style={{color: 'White'}}>Mint Price : {Math.round((400/this.state.price) *100) / 100} ETH</p1>
+            <h3  style={{color: 'White'}}>Mint Price : {Math.round((400/this.state.price) *100) / 100} ETH</h3>
             </div>
         )
 

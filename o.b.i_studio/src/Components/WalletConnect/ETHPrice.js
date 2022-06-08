@@ -33,7 +33,7 @@ export default class ETH extends React.Component {
         render() {        
         return(
             <div>
-            <p1  style={{color: 'White'}}>{this.state.price}</p1>
+            <h3  style={{color: 'White'}}>{this.state.price}</h3>
             </div>
         )
 
